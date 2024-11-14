@@ -2,12 +2,17 @@
     overflow: scroll;
 }
 
+body {
+    background-color: darkslategray;
+}
+
 #page {
     background: hsla(229, 63%, 89%, 1);
     background: linear-gradient(135deg, hsla(229, 63%, 89%, 1) 0%, hsla(229, 57%, 77%, 1) 100%);
     background: -moz-linear-gradient(135deg, hsla(229, 63%, 89%, 1) 0%, hsla(229, 57%, 77%, 1) 100%);
     background: -webkit-linear-gradient(135deg, hsla(229, 63%, 89%, 1) 0%, hsla(229, 57%, 77%, 1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#D3D9F5", endColorstr="#A5B1E6", GradientType=1);
+    border-bottom-right-radius: 500px;
 }
 
 
