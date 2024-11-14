@@ -1,0 +1,26 @@
+#page {
+    background: hsla(229, 63%, 89%, 1);
+
+    background: linear-gradient(135deg, hsla(229, 63%, 89%, 1) 0%, hsla(229, 57%, 77%, 1) 100%);
+
+    background: -moz-linear-gradient(135deg, hsla(229, 63%, 89%, 1) 0%, hsla(229, 57%, 77%, 1) 100%);
+
+    background: -webkit-linear-gradient(135deg, hsla(229, 63%, 89%, 1) 0%, hsla(229, 57%, 77%, 1) 100%);
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#D3D9F5", endColorstr="#A5B1E6", GradientType=1);
+}
+
+
+#page::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:
+            linear-gradient(to right, white 1px, transparent 1px),
+            linear-gradient(to bottom, white 1px, transparent 1px);
+    background-size: 20px 20px; /* Adjust the size as needed */
+    pointer-events: none; /* Ensure the lines don't interfere with other elements */
+}
