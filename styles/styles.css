@@ -23,3 +23,10 @@
     background-size: 25px 25px; /* Adjust the size as needed */
     pointer-events: none; /* Ensure the lines don't interfere with other elements */
 }
+
+h1 {
+    font-size: 250px;
+    background: url('/path/to/texture.png') repeat;
+    -webkit-background-clip: text;
+    color: transparent;
+}
