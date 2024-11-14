@@ -58,7 +58,7 @@ export default function Home() {
                         </p>
 
                         <h2 className="mt-5 italic">Select Clients</h2>
-                        <p>Black Ink | RabbitWolf Creative | Weston Colton | Clearstone Builders | MF9.World </p>
+                        <p>Black Ink | RabbitWolf Creative | Weston Colton | MF9.World </p>
 
                         <h2 className="mt-5 italic">Location</h2>
                         <p>Serving clients everywhere</p>
