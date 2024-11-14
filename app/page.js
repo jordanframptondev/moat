@@ -36,7 +36,7 @@ export default function Home() {
                     </div>
                     {/*<div className="fixed bottom-0 left-0 w-full h-full bg-[#0000002a]">*/}
                     {/*</div>*/}
-                    <div className="absolute top-[230px] left-[725px]">
+                    <div className="absolute top-[178px] left-[725px]">
                         <h2 className="text-[#fff265] text-6xl w-[410px] select-none hover:text-[#fdf5e6] text-right">Technology
                             studio that builds
                             websites.</h2>
