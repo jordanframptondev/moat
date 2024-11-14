@@ -29,18 +29,19 @@ export default function Home() {
 
     return (
         <>
-            <div id="page" className="relative w-dvh h-dvh cursor-text">
+            <div id="page" className="relative h-dvh cursor-text min-h-[1040px] w-full">
                 <div className="absolute top-[450px] left-[350px]">
                     <h1 className="text-[200px] select-none">MOAT</h1>
                 </div>
-                <div className="absolute bottom-0 left-0 w-full h-full bg-[#0000002a]">
-                </div>
+                {/*<div className="fixed bottom-0 left-0 w-full h-full bg-[#0000002a]">*/}
+                {/*</div>*/}
                 <div className="absolute top-[230px] left-[725px]">
                     <h2 className="text-yellow-100 text-6xl w-[410px] select-none hover:text-[#fdf5e6]">Technology studio that builds
                         websites.</h2>
                 </div>
+                {/*text-[#fdf5e6]*/}
                 <div
-                    className="absolute ml-10 mt-10 flex flex-col w-[666px] h-[456px] min-h-fit p-10 bg-[#0000002a] text-[#fdf5e6] rounded-r-2xl select-none">
+                    className="absolute ml-10 mt-10 flex flex-col w-[666px] h-[456px] min-h-fit p-10 bg-[#0000002a] text-white rounded-r-2xl select-none">
                     <p className="text-[32px]">
                         We work with clients to bring their digital landscape to life. From start to finish, we
                         collaborate on creating the pixel-perfect site that is unique to you.
