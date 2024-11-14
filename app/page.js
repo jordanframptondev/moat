@@ -4,17 +4,17 @@ export default function Home() {
     return (
         <>
             <div id="page" className="relative w-dvh h-dvh cursor-text">
-                <div className="absolute bottom-14 left-48">
+                <div className="absolute bottom-28 left-1/4">
                     <h1 className="text-[200px] select-none">MOAT</h1>
                 </div>
                 <div className="absolute bottom-0 left-0 w-full h-full bg-[#0000002a]">
                 </div>
-                <div className="absolute top-1/3 left-3/4 transform -translate-x-1/2 -translate-y-1/2">
+                <div className="absolute top-1/3 right-0 transform -translate-x-1/2 -translate-y-1/2">
                     <h2 className="text-[#fdf5e6] text-6xl w-[410px] select-none">Technology studio that builds
                         websites.</h2>
                 </div>
                 <div
-                    className="absolute mt-10 flex flex-col min-w-[558px] w-1/2 max-w-[666px] h-[496px] p-10 bg-[#0000004a] text-[#fdf5e6] rounded-r-2xl select-none">
+                    className="absolute mt-10 flex flex-col min-w-[558px] w-1/2 max-w-[666px] h-[456px] p-10 bg-[#0000005a] text-[#fdf5e6] rounded-r-2xl select-none">
                     <p>
                         We work with clients to bring their digital landscape to life. From start to finish, we
                         collaborate on creating the pixel-perfect site that is unique to you.
