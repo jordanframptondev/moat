@@ -37,14 +37,14 @@ export default function Home() {
                     {/*<div className="fixed bottom-0 left-0 w-full h-full bg-[#0000002a]">*/}
                     {/*</div>*/}
                     <div className="absolute top-[230px] left-[725px]">
-                        <h2 className="text-yellow-100 text-6xl w-[410px] select-none hover:text-[#fdf5e6] text-right">Technology
+                        <h2 className="text-[#fff265] text-6xl w-[410px] select-none hover:text-[#fdf5e6] text-right">Technology
                             studio that builds
                             websites.</h2>
                     </div>
                     {/*text-[#fdf5e6]*/}
                     <div
-                        className="absolute ml-10 mt-10 flex flex-col w-[666px] h-[456px] min-h-fit p-10 bg-[#ffffff9a] text-green-950 rounded-r-2xl select-none">
-                        <p className="text-[32px] text-[#4f9062] text-center">
+                        className="absolute ml-10 mt-10 flex flex-col w-[666px] h-[456px] min-h-fit p-10 bg-[#ffffff9a] text-green-950 rounded-tl-[143px] rounded-r-2xl select-none">
+                        <p className="text-[32px] text-[#4f9062] text-center ml-[20px]">
                             We work with clients to bring their digital landscape to life. From start to finish, we
                             collaborate on creating the pixel-perfect site that is unique to you.
                         </p>
