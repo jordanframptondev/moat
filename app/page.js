@@ -44,11 +44,11 @@ export default function Home() {
                     {/*text-[#fdf5e6]*/}
                     <div
                         className="absolute ml-10 mt-10 flex flex-col w-[666px] h-[456px] min-h-fit p-10 bg-[#ffffff9a] text-green-950 rounded-r-2xl select-none">
-                        <p className="text-[32px] text-[chocolate] text-center">
+                        <p className="text-[32px] text-[#4f9062] text-center">
                             We work with clients to bring their digital landscape to life. From start to finish, we
                             collaborate on creating the pixel-perfect site that is unique to you.
                         </p>
-                        <div className="text-[14px] text-black">
+                        <div className="text-[14px] text-slate-600">
                             <h2 className="mt-5 italic">Services</h2>
                             <p>
                                 eCommerce, Blog, Portfolio, Custom Web Development, Technical Consulting, and more.
