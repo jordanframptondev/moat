@@ -1,13 +1,13 @@
 "use client";
 
 import "@/styles/styles.css"
-import { useEffect } from "react";
+import {useEffect} from "react";
 
 export default function Home() {
     useEffect(() => {
         const handleMouseMove = (event) => {
-            const { clientX, clientY } = event;
-            const { innerWidth, innerHeight } = window;
+            const {clientX, clientY} = event;
+            const {innerWidth, innerHeight} = window;
 
             const xPercent = clientX / innerWidth;
             const yPercent = clientY / innerHeight;
@@ -29,46 +29,49 @@ export default function Home() {
 
     return (
         <>
-            <div id="page" className="relative h-dvh cursor-text min-h-[1140px] w-full">
-                <div className="absolute top-[450px] left-[350px]">
-                    <h1 className="text-[200px] select-none">MOAT</h1>
-                </div>
-                {/*<div className="fixed bottom-0 left-0 w-full h-full bg-[#0000002a]">*/}
-                {/*</div>*/}
-                <div className="absolute top-[230px] left-[725px]">
-                    <h2 className="text-yellow-100 text-6xl w-[410px] select-none hover:text-[#fdf5e6]">Technology studio that builds
-                        websites.</h2>
-                </div>
-                {/*text-[#fdf5e6]*/}
-                <div
-                    className="absolute ml-10 mt-10 flex flex-col w-[666px] h-[456px] min-h-fit p-10 bg-[#0000002a] text-white rounded-r-2xl select-none">
-                    <p className="text-[32px]">
-                        We work with clients to bring their digital landscape to life. From start to finish, we
-                        collaborate on creating the pixel-perfect site that is unique to you.
-                    </p>
-                    <div className="text-[14px]">
-                        <h2 className="mt-5 italic">Services</h2>
-                        <p>
-                            eCommerce, Blog, Portfolio, Custom Web Development, Technical Consulting, and more.
-                        </p>
-
-                        <h2 className="mt-5 italic">Technologies</h2>
-                        <p>
-                            React, Next.js, CMS, Shopify and more.
-                        </p>
-
-                        <h2 className="mt-5 italic">Select Clients</h2>
-                        <p>Black Ink | RabbitWolf Creative | Weston Colton | MF9.World </p>
-
-                        <h2 className="mt-5 italic">Location</h2>
-                        <p>Serving clients everywhere</p>
+            <div id="page" className="relative h-dvh cursor-text w-full">
+                <div className="relative min-h-[1140px] max-h-[1140px]">
+                    <div className="absolute top-[450px] left-[350px]">
+                        <h1 className="text-[200px] select-none">MOAT</h1>
                     </div>
-                </div>
-                <div className="absolute bottom-64 left-[200px] ml-10">
-                    <p className="text-[91px] font-serif text-orange-400 hover:text-blue-950">About</p>
-                </div>
-                <div className="absolute bottom-9 left-0 ml-10">
-                    <p className="text-[91px] text-[#3c8a8a] hover:text-blue-900">Connect</p>
+                    {/*<div className="fixed bottom-0 left-0 w-full h-full bg-[#0000002a]">*/}
+                    {/*</div>*/}
+                    <div className="absolute top-[230px] left-[725px]">
+                        <h2 className="text-yellow-100 text-6xl w-[410px] select-none hover:text-[#fdf5e6]">Technology
+                            studio that builds
+                            websites.</h2>
+                    </div>
+                    {/*text-[#fdf5e6]*/}
+                    <div
+                        className="absolute ml-10 mt-10 flex flex-col w-[666px] h-[456px] min-h-fit p-10 bg-[#0000002a] text-white rounded-r-2xl select-none">
+                        <p className="text-[32px]">
+                            We work with clients to bring their digital landscape to life. From start to finish, we
+                            collaborate on creating the pixel-perfect site that is unique to you.
+                        </p>
+                        <div className="text-[14px]">
+                            <h2 className="mt-5 italic">Services</h2>
+                            <p>
+                                eCommerce, Blog, Portfolio, Custom Web Development, Technical Consulting, and more.
+                            </p>
+
+                            <h2 className="mt-5 italic">Technologies</h2>
+                            <p>
+                                React, Next.js, CMS, Shopify and more.
+                            </p>
+
+                            <h2 className="mt-5 italic">Select Clients</h2>
+                            <p>Black Ink | RabbitWolf Creative | Weston Colton | MF9.World </p>
+
+                            <h2 className="mt-5 italic">Location</h2>
+                            <p>Serving clients everywhere</p>
+                        </div>
+                    </div>
+                    <div className="absolute bottom-64 left-[200px] ml-10">
+                        <p className="text-[91px] font-serif text-orange-400 hover:text-blue-950">About</p>
+                    </div>
+                    <div className="absolute bottom-9 left-0 ml-10">
+                        <p className="text-[91px] text-[#3c8a8a] hover:text-blue-900">Connect</p>
+                    </div>
                 </div>
             </div>
         </>
