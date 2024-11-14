@@ -29,7 +29,7 @@ export default function Home() {
 
     return (
         <>
-            <div id="page" className="relative h-dvh cursor-text min-h-[1040px] w-full">
+            <div id="page" className="relative h-dvh cursor-text min-h-[1140px] w-full">
                 <div className="absolute top-[450px] left-[350px]">
                     <h1 className="text-[200px] select-none">MOAT</h1>
                 </div>
