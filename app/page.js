@@ -28,16 +28,16 @@ export default function Home() {
     }, []);
 
     return (
-        <>
-            <div id="page" className="relative h-dvh cursor-text w-full max-w-[1200px] min-w-[1200px]">
-                <div className="relative min-h-[1140px] max-h-[1140px]">
-                    <div className="absolute top-[400px] left-[350px] z-10">
-                        <h1 className="text-[250px] select-none font-sans text-slate-600">MOAT</h1>
+        <div className="h-dvh cursor-text w-full max-w-[1200px] min-w-[1200px]">
+            <div id="page" className="relative min-h-[611px] rounded-tl-[139px]">
+                <div className="relative">
+                    <div className="absolute top-[380px] left-[30px] z-10">
+                        <h1 className="text-[250px] select-none font-sans text-[#d27549]">MOAT</h1>
                     </div>
                     {/*<div className="fixed bottom-0 left-0 w-full h-full bg-[#0000002a]">*/}
                     {/*</div>*/}
                     <div className="absolute top-[178px] left-[725px]">
-                        <h2 className="text-[#fff265] text-6xl w-[410px] select-none hover:text-[#fdf5e6] text-right">Technology
+                        <h2 className="text-6xl w-[410px] select-none text-[#6473cb]">Technology
                             studio that builds
                             websites.</h2>
                     </div>
@@ -48,7 +48,7 @@ export default function Home() {
                             We work with clients to bring their digital landscape to life. From start to finish, we
                             collaborate on creating the pixel-perfect site that is unique to you.
                         </p>
-                        <div className="text-[14px] text-slate-600">
+                        <div className="text-[14px] text-[#CA6460]">
                             <h2 className="mt-5 italic">Services</h2>
                             <p>
                                 eCommerce, Blog, Portfolio, Custom Web Development, Technical Consulting, and more.
@@ -59,21 +59,18 @@ export default function Home() {
                                 React, Next.js, CMS, Shopify and more.
                             </p>
 
-                            <h2 className="mt-5 italic">Select Clients</h2>
-                            <p>Black Ink | RabbitWolf Creative | Weston Colton | MF9.World </p>
-
                             <h2 className="mt-5 italic">Location</h2>
                             <p>Serving clients everywhere</p>
                         </div>
                     </div>
-                    <div className="absolute bottom-64 left-[200px] ml-10">
-                        <p className="text-[91px] font-serif text-orange-400 hover:text-blue-950">About</p>
-                    </div>
-                    <div className="absolute bottom-9 left-0 ml-10">
-                        <p className="text-[91px] text-[#3c8a8a] hover:text-blue-900">Connect</p>
-                    </div>
+                    {/*<div className="absolute bottom-64 left-[200px] ml-10">*/}
+                    {/*    <p className="text-[91px] font-serif text-orange-400 hover:text-blue-950">About</p>*/}
+                    {/*</div>*/}
+                    {/*<div className="absolute bottom-9 left-0 ml-10">*/}
+                    {/*    <p className="text-[91px] text-[#3c8a8a] hover:text-blue-900">Connect</p>*/}
+                    {/*</div>*/}
                 </div>
             </div>
-        </>
+        </div>
     );
 }
